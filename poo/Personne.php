@@ -9,6 +9,8 @@ Class Personne
 	private $telephone;
 
 	private static $BONJOUR;
+
+	//methode special ,constructeur
 	public function __construct($nom,$prenom,$age){
 
 		$this->setNom($nom);
@@ -16,6 +18,7 @@ Class Personne
 		$this->setAge($age);
 	}
 
+	//les mutateurs et accesseurs
 	public function setNom($nom)
 	{
 		if (!is_string($nom)) {
