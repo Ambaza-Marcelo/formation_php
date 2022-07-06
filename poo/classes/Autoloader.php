@@ -1,5 +1,6 @@
 <?php
 
+	//auto chargement des classes
 class Autoloader
 {
 	public static function autoload($class_name)
