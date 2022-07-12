@@ -1,7 +1,7 @@
 <?php
 class Calculatrice
 {
-
+	//declaration des attributs
 	private $x1;
 	private $x2;
 
