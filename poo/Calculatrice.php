@@ -5,6 +5,7 @@ class Calculatrice
 	private $x1;
 	private $x2;
 
+	//le constructeur avec deux parametres
 	public function __construct($x1,$x2)
 	{
 		$this->setX1($x1);
