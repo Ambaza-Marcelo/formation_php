@@ -12,6 +12,7 @@ class Calculatrice
 		$this->setX2($x2);
 	}
 
+	//les accesseurs
 	public function x1()
 	{
 		return $this->x1;
@@ -20,7 +21,7 @@ class Calculatrice
 	{
 		return $this->x2;
 	}
-
+	//les mutateurs
 	public function setX1($x1)
 	{
 		$this->x1 = $x1;
